@@ -1,9 +1,0 @@
-
- Start  Stop   Length Name               Class
-
- 00000H 00046H 00047H DATAREA            
- 00050H 00075H 00026H PROGNAM            
-
-Program entry point at 0005:0000
-Warning: No stack
-
