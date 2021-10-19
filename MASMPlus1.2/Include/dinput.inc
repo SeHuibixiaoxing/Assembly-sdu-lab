@@ -1,0 +1,17 @@
+  ; ===========================================
+  ; dinput.inc copyright MASM32 1998 - 2003
+  ; ===========================================
+
+ADDRESS_CHANGE_FN PROTO :DWORD
+CLIENT_ALLOC PROTO :DWORD
+CLIENT_FREE PROTO :DWORD
+DirectInputCreateA PROTO :DWORD,:DWORD,:DWORD,:DWORD
+DirectInputCreate equ <DirectInputCreateA>
+
+DirectInputCreateEx PROTO :DWORD,:DWORD,:DWORD,:DWORD,:DWORD
+DirectInputCreateW PROTO :DWORD,:DWORD,:DWORD,:DWORD
+FORWARD_FUNCTION PROTO :DWORD,:DWORD,:DWORD,:DWORD,:DWORD
+IF_CALLBACK_FN PROTO :DWORD,:DWORD
+OBJECT_INQ_FN PROTO :DWORD,:DWORD,:DWORD
+ROUTINE PROTO :DWORD,:DWORD,:DWORD
+_DirectInputCreateW PROTO :DWORD,:DWORD,:DWORD,:DWORD
